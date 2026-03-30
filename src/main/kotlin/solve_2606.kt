@@ -1,4 +1,3 @@
-import java.util.LinkedList
 import java.util.StringTokenizer
 
 fun main() {

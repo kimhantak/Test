@@ -9,7 +9,7 @@ fun main() {
 
     val size = input.readLine().toInt()
 
-    paper  = Array(size) { Array<Int>(size) { 0 } }
+    paper = Array(size) { Array<Int>(size) { 0 } }
 
     repeat(size) { count ->
         input.readLine().split(" ").map { it.toInt() }.apply { paper[count] = this.toTypedArray() }
@@ -18,7 +18,7 @@ fun main() {
     check(0, 0, size)
 
     output.flush()
-    output.write("${minus}\n${zero}\n${plus}")
+    output.write("$minus\n$zero\n$plus")
     output.close()
 }
 

@@ -21,7 +21,7 @@ fun main() {
     findCombination(0)
 
     output.flush()
-    output.write("${resultCards1}")
+    output.write("$resultCards1")
     output.close()
 }
 

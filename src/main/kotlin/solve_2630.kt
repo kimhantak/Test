@@ -14,7 +14,7 @@ fun main() {
 
     colorCheck(0, 0, size)
 
-    output.write("${white}\n${blue}")
+    output.write("$white\n$blue")
     output.close()
 }
 

@@ -17,12 +17,12 @@ fun calculateZ(n: Int, row: Int, col: Int): Int {
     val half = (2.0.pow(n - 1.0)).toInt()
 
     if (row < half && col < half) {
-        return calculateZ(n-1, row, col)
+        return calculateZ(n - 1, row, col)
     } else if (row < half && col >= half) {
-        return half * half  + calculateZ(n-1, row, col-half)
+        return half * half  + calculateZ(n - 1, row, col - half)
     } else if (row >= half && col < half) {
-        return 2 * half * half + calculateZ(n -1, row-half, col)
+        return 2 * half * half + calculateZ(n - 1, row - half, col)
     } else {
-        return 3*half*half + calculateZ(n-1, row-half, col-half)
+        return 3*half*half + calculateZ(n - 1, row - half, col - half)
     }
 }

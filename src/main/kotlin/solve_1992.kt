@@ -12,7 +12,7 @@ fun main() {
     }
 
     checkVideo(0, 0, size)
-    output.write("${resultOfVideoCode}")
+    output.write("$resultOfVideoCode")
     output.close()
 }
 

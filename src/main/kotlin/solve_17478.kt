@@ -11,7 +11,7 @@ fun main() {
     sayingProf(0)
 
     output.flush()
-    output.write("${result}")
+    output.write("$result")
     output.close()
 }
 
